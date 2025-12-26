@@ -8,8 +8,8 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 const carData = {
   "Alfa Romeo": {
     "147": {
-      "1999-2002": ["2.4 Jtd 150ch Diesel", "2.4 Jtd 163ch Diesel", "2.4 Jtd 175ch Diesel"],
-      "2003-2010": ["2.4 Jtd 150ch Diesel", "2.4 Jtd 163ch Diesel", "2.4 Jtd 175ch Diesel"]
+      "2001-2005": ["2.0 TS 150ch Essence", "3.2 V6 GTA 250ch Essence", "1.9 Jtd 100ch Diesel", "1.9 Jtd 115ch Diesel", "1.9 Jtd 136ch Diesel", "1.9 Jtd 140ch Diesel"],
+      "2005+": ["2.0 TS 150ch Essence", "3.2 V6 GTA 250ch Essence", "1.9 Jtd 100ch Diesel", "1.9 Jtd 115ch Diesel", "1.9 Jtd 120ch Diesel", "1.9 Jtd 126ch Diesel", "1.9 Jtd 136ch Diesel", "1.9 Jtd 140ch Diesel", "1.9 Jtd 150ch Diesel", "1.9 Jtd 170ch Diesel"]
     },
     "156": {
       "Standard": ["1.6 TS 120ch", "1.8 TS 140ch", "2.0 TS 155ch", "2.4 JTD 150ch Diesel"]
