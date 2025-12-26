@@ -7,10 +7,45 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 
 const carData = {
   "Alfa Romeo": {
+    "147": {
+      "1999-2002": ["2.4 Jtd 150ch Diesel", "2.4 Jtd 163ch Diesel", "2.4 Jtd 175ch Diesel"],
+      "2003-2010": ["2.4 Jtd 150ch Diesel", "2.4 Jtd 163ch Diesel", "2.4 Jtd 175ch Diesel"]
+    },
+    "156": {
+      "Standard": ["1.6 TS 120ch", "1.8 TS 140ch", "2.0 TS 155ch", "2.4 JTD 150ch Diesel"]
+    },
+    "159": {
+      "Standard": ["1.9 JTS 160ch", "2.2 JTS 185ch", "2.4 JTDM 200ch Diesel", "3.2 JTS V6 260ch"]
+    },
+    "166": {
+      "Standard": ["2.0 TS 150ch", "2.5 V6 190ch", "3.0 V6 220ch", "2.4 JTD 175ch Diesel"]
+    },
+    "4C": {
+      "Spider": ["1.75 TBi 240ch"],
+      "Competizione": ["1.75 TBi 240ch"]
+    },
+    "Brera": {
+      "Standard": ["2.2 JTS 185ch", "3.2 JTS V6 260ch", "2.4 JTDM 200ch Diesel"]
+    },
+    "CrossWagon": {
+      "Standard": ["1.9 JTD 150ch Diesel", "2.4 JTD 175ch Diesel"]
+    },
     "Giulia": {
       "Super": ["2.0 TB 200ch", "2.0 TB 280ch"],
       "Veloce": ["2.0 TB 280ch", "2.2 D 190ch"],
       "Quadrifoglio": ["2.9 V6 Bi-Turbo 510ch"]
+    },
+    "Giulietta": {
+      "Standard": ["1.4 TB 120ch", "1.4 TB 170ch", "1.75 TBi 235ch", "2.0 JTDM 150ch Diesel"]
+    },
+    "GT": {
+      "Standard": ["1.8 TS 140ch", "2.0 JTS 165ch", "3.2 V6 240ch", "1.9 JTD 150ch Diesel"]
+    },
+    "MiTo": {
+      "Standard": ["1.4 78ch", "1.4 TB 135ch", "1.4 TB 170ch", "1.3 JTDM 95ch Diesel"]
+    },
+    "Spider": {
+      "Standard": ["2.2 JTS 185ch", "3.2 JTS V6 260ch", "2.4 JTDM 200ch Diesel"]
     },
     "Stelvio": {
       "Super": ["2.0 TB 200ch", "2.2 D 190ch"],
@@ -21,10 +56,6 @@ const carData = {
       "Hybrid 130ch": ["1.5 Hybrid 130ch"],
       "Hybrid 160ch": ["1.5 Hybrid 160ch"],
       "Plug-in Hybrid Q4": ["1.3 PHEV 280ch"]
-    },
-    "4C": {
-      "Spider": ["1.75 TBi 240ch"],
-      "Competizione": ["1.75 TBi 240ch"]
     }
   },
   "Alpine": {
